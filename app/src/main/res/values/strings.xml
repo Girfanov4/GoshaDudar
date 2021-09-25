@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">GoshaDudar</string>
+    <string name="sales_icon">Sales</string>
+    <string name="contacts_text">Контакты</string>
+    <string name="about_text">Про нас</string>
+    <string name="main_scene_text">Главная</string>
+    <string name="logo_off_app1">Courses</string>
+    <string name="logo_off_app2">App</string>
+    <string name="course_start_date">Старт обучения:</string>
+    <string name="level">Уровень:</string>
+    <string name="course_desc">Программа рассчитана на новичков, которые хотят войти в сферу построения программ на Java. За программу вы изучите язык Java, научитесь работать с базой данных, а также изучите язык SQL для запросов к базам данных. На основе библиотеки JavaFx вами будет создано два полноценных приложения с дизайном и функциями. Помимо JavaFx вы изучите Java Spring Boot для построения сайтов, а также изучите разработку Android приложений на основе языка Java.</string>
+</resources>
