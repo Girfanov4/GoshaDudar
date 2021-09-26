@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
+//Массив категорий
         List<Category> categoryList = new ArrayList<>();
         categoryList.add(new Category(1, "Игры"));
         categoryList.add(new Category(2, "Сайты"));
