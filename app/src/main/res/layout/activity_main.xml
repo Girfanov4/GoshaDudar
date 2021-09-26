@@ -107,7 +107,7 @@
         android:layout_marginStart="40dp"
         android:layout_marginTop="15dp"
         android:contentDescription="@string/sales_icon"
-        android:onClick="onClickfFlter"
+        android:onClick="onClickFilter"
         app:layout_constraintStart_toEndOf="@+id/constraintLayout"
         app:layout_constraintTop_toBottomOf="@+id/textView4"
         app:srcCompat="@drawable/ic_filter" />

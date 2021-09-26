@@ -8,6 +8,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
+
 import com.androidstudio.goshadudar.adapter.CategoryAdapter;
 import com.androidstudio.goshadudar.adapter.CourseAdapter;
 import com.androidstudio.goshadudar.model.Category;
@@ -75,13 +76,16 @@ public class MainActivity extends AppCompatActivity {
         courseList.addAll(filterCourses);
         courseAdapter.notifyDataSetChanged();
     }
-    public void onClickfFlter(View view){
+
+    public void onClickFilter(View view) {
         courseList.clear();
         courseList.addAll(fullCourseList);
         courseAdapter.notifyDataSetChanged();
     }
-    public void openShoppingCart(View view){
+
+    public void openShoppingCart(View view) {
         Intent intent = new Intent(this, OrderPage.class);
         startActivity(intent);
     }
+
 }
